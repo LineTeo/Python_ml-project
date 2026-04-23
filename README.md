@@ -1,0 +1,2 @@
+# Python_ml-project
+JAVAで作成した戦車ゲームを機械学習で強化するPythonプログラム
