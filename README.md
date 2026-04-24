@@ -51,8 +51,8 @@ storage=STUDY_DB_PATH  # sqlite:///optuna_study.db
 ---
 
 ## 3. `analyze_results.py`：結果の可視化と分析
-学習が終わった後、「結局どのツマミが重要だったのか？」を分析するTOOL。
-目的から方法まで含めAIが作成したもの
+学習が終わった後、「結局どのツマミが重要だったのか？」を分析するTOOL<br>
+目的から方法まで含めAIが作成したものだが、こちらが必要とした情報が含まれているのでそのまま利用
 
 ### ① パラメータ重要度 (`get_param_importances`)
 ```python
