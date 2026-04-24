@@ -1,5 +1,5 @@
 # Pythonで機械学習
-JAVAで作成した戦車ゲームをPythonのOptuneを使った機械学習で強化する演習
+JAVAで作成した[戦車ゲーム](https://github.com/LineTeo/java-practice2026)をPythonのOptuneを使った機械学習で強化する演習
 演習で学んだメモ等を含めてまとめている
 ### 学習の3要素
 
