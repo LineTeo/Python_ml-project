@@ -75,7 +75,26 @@ importance = optuna.importance.get_param_importances(study)
 このループを最終的には1000回まわして学習
 ---
 
-## 5. 学習結果
+## 5. 学習の実行
+戦車ゲームをコンパイル
+```
+javac -d bin src/war/ai/*.java src/war/tank/*.java src/war/control/*.java src/war/main/*.java
+```
+PythonコードにJAVAプログラムのPathを埋め込み
+```
+JAVA_CMD = [
+    "java",
+    "-cp", "../../../../pleiades/2024-12/workspace/ClassTrain/bin",          # ← クラスファイルのディレクトリに変更
+    "war.main.BattleEvaluator"
+]
+```
+学習実行
+```
+Python potimize_ai.py
+```
+---
+
+## 6. 学習結果
 ### 敵アルゴリズム改善効果
 |         | 学習前 | 学習後 |
 | ------- | ------- | ------- |
